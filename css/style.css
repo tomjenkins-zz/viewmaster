@@ -1,0 +1,30 @@
+*{
+	margin:0;
+	padding: 0;
+	overflow:hidden;
+	cursor:none;
+	border:0;
+}
+
+.hidden{
+	display:none;
+}
+
+#loading{
+	position:absolute;
+	display:none;
+	top:191px;
+	left:312px;
+}
+
+body{
+	background-color: #000;
+	background-image: url("../img/loader.gif");
+	background-repeat:no-repeat;
+	background-position: 312px 191px;
+}
+
+input{
+	width: 660px !important;
+	height: 412px !important;
+}
